@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="HRM Test Suite">
+  <test name="Test Login">
+    <classes>
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test Dashboard">
+    <classes>
+      <class name="testcases.DashboardTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test MyIfno">
+    <classes>
+      <class name="testcases.MyInfoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
