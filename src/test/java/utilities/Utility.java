@@ -25,6 +25,10 @@ import testbase.TestBase;
 public class Utility extends TestBase{
 
 	
+	/*
+	 * scroll to element
+	 * @param e
+	 */
 	public static void scrollToElement(WebElement e)
 	{
 		JavascriptExecutor je=(JavascriptExecutor) driver;
@@ -76,7 +80,10 @@ public class Utility extends TestBase{
 		System.out.println(date);
 		return date;
 	}
-	
+	/*
+	 * Attach the screenshot in report
+	 * 
+	 */
 	public static void attachScreenshotToReport()
 	{
 		TakesScreenshot c=(TakesScreenshot) driver;
